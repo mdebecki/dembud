@@ -15,6 +15,6 @@ public class WelcomeController {
 	@RequestMapping("/welcome")
 	public String helloWorld1() {
 
-		return "welcome";
+		return "loginPage";
 	}
 }
